@@ -5,7 +5,7 @@ jobs:
     docker:
       - image: circleci/node:latest-browsers
     steps:
-      - run: echo $RUN_EXTRA_TESTS
+      - run: echo "Hello"
 
 workflows:
   work:
