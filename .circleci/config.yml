@@ -7,7 +7,9 @@ jobs:
     steps:
       - run: echo "Hello"
 
+
 workflows:
-  work:
+ version: 2
+ work:
     jobs:
       - build
